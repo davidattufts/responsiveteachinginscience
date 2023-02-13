@@ -1,0 +1,13 @@
+.*
+*~
+*.tmp
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.~vsd*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+Network Trash Folder
+Temporary Items
