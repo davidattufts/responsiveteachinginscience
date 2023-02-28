@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript" src="../../../lp.js"></script>
+<script src="../../../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../../../SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../../mm_menu.js"></script>
+<script language="javascript" src="../watercycle.js"></script>
+<link href="../../purecssmenus.css" rel="stylesheet" type="text/css" />
+<link href="../../../main.css" rel="stylesheet" type="text/css" />
+<script language="javascript">MM_reloadPage(true);</script>
+<script language="javascript">
+path = "../../../";
+xlevel = 1; moduleid = 2;
+if (xlevel==1) {clevel="";} else {clevel=xlevel;}
+</script>
+<script language="javascript">pageTitle("");</script>
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script language="JavaScript1.2">
+/*
+Rotating image or text(You can use for changing banners)
+Author: Narayan Chand Thakur
+Source: http://ncthakur.itgo.com/
+This may be used freely as long as this message is intact.
+*/
+<!--
+
+//you may add your image file or text below
+var item=new Array()
+item[0]="<img src='trajectories/Slide01.png' alt='Sample Image 1' width='600' height='373' border='0' usemap='#Map0'>"
+item[1]="<img src='trajectories/Slide02.png' alt='Sample Image 2' width='600' height='373' border='0' usemap='#Map0'>"
+item[2]="<img src='trajectories/Slide03.png' alt='Sample Image 3' width='600' height='373' border='0' usemap='#Map0'>"
+item[3]="<img src='trajectories/Slide04.png' alt='Sample Image 4' width='600' height='373' border='0' usemap='#Map0'>"
+item[4]="<img src='trajectories/Slide05.png' alt='Sample Image 5' width='600' height='373' border='0' usemap='#Map0'>"
+item[5]="<img src='trajectories/Slide06.png' alt='Sample Image 6' width='600' height='373' border='0' usemap='#Map0'>"
+item[6]="<img src='trajectories/Slide07.png' alt='Sample Image 7' width='600' height='373' border='0' usemap='#Map0'>"
+item[7]="<img src='trajectories/Slide08.png' alt='Sample Image 8' width='600' height='373' border='0' usemap='#Map0'>"
+item[8]="<img src='trajectories/Slide09.png' alt='Sample Image 8' width='600' height='373' border='0' usemap='#Map0'>"
+
+var current=0
+
+
+var ns6=document.getElementById&&!document.all
+function changeItem(){
+if(document.layers){
+document.layer1.document.write(item[current])
+document.layer1.document.close()
+}
+if(ns6)document.getElementById("div1").innerHTML=item[current]
+{
+if(document.all){
+div1.innerHTML=item[current]
+}
+}
+if (current==7) current=0
+else current++
+setTimeout("changeItem()",3000)
+}
+function nochangeItem(){
+if(document.layers){
+document.layer1.document.write(item[current])
+document.layer1.document.close()
+}
+if(ns6)document.getElementById("div1").innerHTML=item[current]
+{
+if(document.all){
+div1.innerHTML=item[current]
+}
+}
+//if (current==7) current=0
+//else current++
+//setTimeout("changeItem()",3000000)
+}
+window.onload=nochangeItem
+//-->
+</script>
+</head>
+<body>
+<script language="JavaScript" type="text/javascript">
+MM_preloadImages("trajectories/Slide01.png","trajectories/Slide02.png","trajectories/Slide03.png","trajectories/Slide04.png","trajectories/Slide05.png","trajectories/Slide06.png","trajectories/Slide07.png","trajectories/Slide08.png","trajectories/Slide09.png");
+</script>
+<script language="javascript">
+headerStuff(path,moduleid,"Extended Case Study: Bonnie\'s Classroom","trajectory",xlevel);
+//WaterModuleMenu2(path,"bonnie");
+</script>
+
+<div id="breadCrumb">
+<script language="javascript"> 
+llinkbc("Professional Development",path,"modules/watercycle/index",clevel);
+document.write("Extended Case Study");
+</script>
+</div>
+<script language="javascript">
+subLinks("../using_cs.html","Discussing Cases","../../../toytops.html","Productive Student Ideas","../../pd/smallcase.html","Small Case Studies","","Extended Case Study","../../pd/discussions.html","Teacher Discussions");
+</script>
+<!-- Content Starts - - - - - - - - - - - - - - - - - -->
+	
+
+	
+<script language="Javascript">
+writeTitle("Extended Case Study: Bonnie\'s Fifth Grade Classroom","<em>Water Cycle: Teacher Enacted Trajectory</em>","");
+</script>		
+<p>This is an extended case study of an entire 15-hour investigation of the water cycle to give users of this site a feel for the flow of a responsive unit.  There is a lot of material here.  We suggest you get an overview and perhaps work partway through the extended case study, then return to the remainder later. We assume you are working through the PD area of the website in the <a href="trajectory.html#" alt="Suggested sequence" name="link13"  onclick="return false" onMouseOver="MM_showMenu(window.mm_menu_13,06,16,null,'link13')" onMouseOut="MM_startTimeout();">suggested sequence</a>.</p>
+<p>
+<a href="../../../teachers/bonnie.html">Bonnie</a> launched her fifth graders' exploration of the water cycle with the following question: </p>
+<table class="movieBox"><tr><td style="color:#333" >
+One night it rains. When you go to school the next day, you notice a large puddle of water on the driveway. Later that day, when leaving school, you notice that the puddle is gone. What could have happened to the puddle?
+</td><td>
+<img src="images/rainy_day.png" alt="Rainy day" width="65" height="81" align="right" />
+</td></tr></table>
+
+</p><p>
+Shown below is a nodal representation of students' exploration. Each node represents an important focus for students. Bold arrows show the actual sequence of major discussion points or activities. Moving from one node to the next represents a significant transition in what students were paying attention to. Smaller arrows diverging from each node remind the viewer that Bonnie could have made other next move decisions, including following up on other productive ideas in the classroom.
+</p>
+<p>
+Each node is linked to video clips showcasing important student discussions, teacher input on the rationale for next moves, scans of student journals, and so forth; all to 'flesh out' the enactment for the user. 
+</p>
+<p>
+We have found that many student ideas and/or contexts are common across classrooms, although how they come up is always unique. Thus, other implementations might show different nodal topics or a different sequence of similar nodes. Click on the first node to start exploring Bonnie's implementation.
+</p> 
+
+<div id="descriptions">			   
+<!--<layer id="layer1" left="286" top="100" ></layer> -->
+<layer id="layer1" ></layer>
+<div id="div1" style="position:relative;left:000;top:000"></div> 
+</div> 
+
+<!-- 
+<img src="trajectories/Slide01.png" width="600" height="373" border="0" usemap="#Map0" />
+--> 
+  <map name="Map0" id="Map0">
+     <area shape="circle" coords="68,70,44" href="node01.html" onMouseOver="changetext(item[1]);" onMouseOut="changetext(item[0]);" />
+    <area shape="circle" coords="223,70,44" href="node02.html" onMouseOver="changetext(item[2]);" onMouseOut="changetext(item[0]);" />
+    <area shape="circle" coords="68,221,44" href="node03.html" onMouseOver="changetext(item[3]);" onMouseOut="changetext(item[0]);" />
+ 	<area shape="circle" coords="223,221,44" href="node04.html" onMouseOver="changetext(item[4]);" onMouseOut="changetext(item[0]);" />
+    <area shape="circle" coords="377,70,44" href="node05.html" onMouseOver="changetext(item[5]);" onMouseOut="changetext(item[0]);" />
+    <area shape="circle" coords="532,70,44" href="node06.html" onMouseOver="changetext(item[6]);" onMouseOut="changetext(item[0]);" />
+    <area shape="circle" coords="377,221,44" href="node07.html" onMouseOver="changetext(item[7]);" onMouseOut="changetext(item[0]);" />
+    <area shape="circle" coords="532,221,44" href="node08.html" onMouseOver="changetext(item[8]);" onMouseOut="changetext(item[0]);" />
+
+    <area shape="rectangle" coords="1,332,121,352" href="node01.html" onMouseOver="changetext(item[1]);" onMouseOut="changetext(item[0]);" />
+    <area shape="rectangle" coords="80,352,160,372" href="node02.html" onMouseOver="changetext(item[2]);" onMouseOut="changetext(item[0]);" />
+    <area shape="rectangle" coords="121,332,202,352" href="node03.html" onMouseOver="changetext(item[3]);" onMouseOut="changetext(item[0]);" />
+    <area shape="rectangle" coords="159,352,281,372" href="node04.html" onMouseOver="changetext(item[4]);" onMouseOut="changetext(item[0]);" />
+    <area shape="rectangle" coords="239,332,402,354" href="node05.html" onMouseOver="changetext(item[5]);" onMouseOut="changetext(item[0]);" />
+    <area shape="rectangle" coords="358,352,520,372" href="node06.html" onMouseOver="changetext(item[6]);" onMouseOut="changetext(item[0]);" />
+    <area shape="rectangle" coords="479,332,561,352" href="node07.html" onMouseOver="changetext(item[7]);" onMouseOut="changetext(item[0]);" />
+    <area shape="rectangle" coords="561,332,599,352" href="node08.html" onMouseOver="changetext(item[8]);" onMouseOut="changetext(item[0]);" />
+  </map>
+</p>
+
+
+
+
+
+
+
+<script language="javascript">footerStuff();</script>
+</body>
+</html>

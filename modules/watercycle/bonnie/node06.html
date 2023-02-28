@@ -1,0 +1,279 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<script language="javascript" src="../../../lp.js"></script>
+<link href="../../../video-js/video-js.css" rel="stylesheet">
+<script src="../../../video-js/video.js"></script>
+<script>
+  videojs.options.flash.swf = "../../../video-js/video-js.swf"
+</script>
+<script src="../../../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../../../SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../../mm_menu.js"></script>
+<script language="javascript" src="../watercycle.js"></script>
+<link href="../../purecssmenus.css" rel="stylesheet" type="text/css" />
+<link href="../../../main.css" rel="stylesheet" type="text/css" />
+<script language="javascript">MM_reloadPage(true);</script>
+<script language="javascript">
+path = "../../../";
+xlevel = 1; moduleid = 2;
+if (xlevel==1) {clevel="";} else {clevel=xlevel;}
+</script>
+<script language="javascript">pageTitle("");</script>
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<script language="JavaScript1.2">
+/*
+Rotating image or text(You can use for changing banners)
+Author: Narayan Chand Thakur
+Source: http://ncthakur.itgo.com/
+This may be used freely as long as this message is intact.
+*/
+<!--
+
+//you may add your image file or text below
+var item=new Array()
+var item2=new Array()
+item[0]="<img src='trajectories/timeline01.png' alt='Timeline 1' width='640' height='84' border='0' usemap='#Map1'>"
+item[1]="<img src='trajectories/timeline02.png' alt='Timeline 2' width='640' height='84' border='0' usemap='#Map1'>"
+item[2]="<img src='trajectories/timeline03.png' alt='Timeline 3' width='640' height='84' border='0' usemap='#Map1'>"
+item[3]="<img src='trajectories/timeline04.png' alt='Timeline 4' width='640' height='84' border='0' usemap='#Map1'>"
+item[4]="<img src='trajectories/timeline05.png' alt='Timeline 5' width='640' height='84' border='0' usemap='#Map1'>"
+item[5]="<img src='trajectories/timeline06.png' alt='Timeline 6' width='640' height='84' border='0' usemap='#Map1'>"
+item[6]="<img src='trajectories/timeline07.png' alt='Timeline 7' width='640' height='84' border='0' usemap='#Map1'>"
+item[7]="<img src='trajectories/timeline08.png' alt='Timeline 8' width='640' height='84' border='0' usemap='#Map1'>"
+item[8]="<img src='trajectories/timeline09.png' alt='Timeline 9' width='640' height='84' border='0' usemap='#Map1'>"
+
+item2[0]="<img src='trajectories/timeline01.png' alt='Timeline 1' width='640' height='84' border='0' usemap='#Map2'>"
+item2[1]="<img src='trajectories/timeline02.png' alt='Timeline 2' width='640' height='84' border='0' usemap='#Map2'>"
+item2[2]="<img src='trajectories/timeline03.png' alt='Timeline 3' width='640' height='84' border='0' usemap='#Map2'>"
+item2[3]="<img src='trajectories/timeline04.png' alt='Timeline 4' width='640' height='84' border='0' usemap='#Map2'>"
+item2[4]="<img src='trajectories/timeline05.png' alt='Timeline 5' width='640' height='84' border='0' usemap='#Map2'>"
+item2[5]="<img src='trajectories/timeline06.png' alt='Timeline 6' width='640' height='84' border='0' usemap='#Map2'>"
+item2[6]="<img src='trajectories/timeline07.png' alt='Timeline 7' width='640' height='84' border='0' usemap='#Map2'>"
+item2[7]="<img src='trajectories/timeline08.png' alt='Timeline 8' width='640' height='84' border='0' usemap='#Map2'>"
+item2[8]="<img src='trajectories/timeline09.png' alt='Timeline 9' width='640' height='84' border='0' usemap='#Map2'>"
+
+var current=6
+
+
+var ns6=document.getElementById&&!document.all
+function changeItem(){
+if(document.layers){
+document.layer1.document.write(item[current])
+document.layer1.document.close()
+}
+if(ns6)document.getElementById("div1").innerHTML=item[current]
+{
+if(document.all){
+div1.innerHTML=item[current]
+}
+}
+if (current==7) current=0
+else current++
+setTimeout("changeItem()",3000)
+}
+function nochangeItem(){
+if(document.layers){
+document.layer1.document.write(item[current])
+document.layer1.document.close()
+document.layer2.document.write(item2[current])
+document.layer2.document.close()
+}
+if(ns6)document.getElementById("div1").innerHTML=item[current]
+if(ns6)document.getElementById("div2").innerHTML=item2[current]
+{
+if(document.all){
+div1.innerHTML=item[current]
+div2.innerHTML=item2[current]
+}
+}
+//if (current==7) current=0
+//else current++
+//setTimeout("changeItem()",3000000)
+}
+window.onload=nochangeItem
+//-->
+</script>
+
+</head>
+<body>
+<script language="JavaScript" type="text/javascript">
+MM_preloadImages("trajectories/timeline01.png","trajectories/timeline02.png","trajectories/timeline03.png","trajectories/timeline04.png","trajectories/timeline05.png","trajectories/timeline06.png","trajectories/timeline07.png","trajectories/timeline08.png","trajectories/timeline09.png");
+</script>
+<script language="javascript">
+headerStuff(path,moduleid,"Extended Case Study: Bonnie\'s Classroom","node07",xlevel);
+//WaterModuleMenu2(path,"bonnie")</script>
+
+
+<div id="breadCrumb">
+<script language="javascript"> 
+llinkbc("Professional Development",path,"modules/watercycle/index",clevel);
+llinkbc("Extended Case Study",path,"modules/watercycle/bonnie/trajectory",clevel);
+document.write("Aquarium demonstrations");
+</script>
+</div>
+<!-- Content Starts - - - - - - - - - - - - - - - - - -->
+
+&nbsp;<br />	
+
+<div id="descriptions">			   
+<layer id="layer1" ></layer>
+<div id="div1" style="position:relative;left:000;top:000"></div> 
+</div> 
+&nbsp;<br />	
+	
+
+<h1>Aquarium Demonstrations</h1>	
+    	
+
+<p><a href="node06.html#" onclick="window.open('transcripts/node06/Bonnie_Aquarium_Demos_transcript2.pdf','_blank','height=600,width=700,scrollbars=1');return false;">Transcripts</a> </p>   	
+
+<p>
+Thus far in the water cycle exploration, students had mostly focused on evaporation and spent little time pondering condensation.  To address this, Bonnie set up a demonstration with water inside a covered aquarium.  She hoped students would consider the entire evaporation/ condensation cycle.  Her plan was for students to tackle explaining what was happening in the covered aquarium while they were also running their evaporation experiments with various liquids.
+<img src="images/aquarium_demo1.png" width="315" height="179" hspace="12" vspace="12" align="right"    /></p>
+
+
+<p>Bonnie used food coloring to make a layer of green water inside the aquarium. She  put an empty cup in the aquarium, covered the aquarium with plastic, and set a bag of ice on the plastic so it was over the cup inside, as shown in the photo.</p>
+
+<p>
+The cold ice facilitated condensation on the inside of the plastic wrap, but unintentionally introduced a new issue.  While the bag of ice was sitting on the plastic wrap, moisture formed on its surface and pooled on the top of the plastic wrap.  Students wondered if water was leaking through the bag, and if that water was leaking through the plastic wrap covering the aquarium.  Were the water drops on the inside of the aquarium cover actually from leaks through plastic?
+ <br />&nbsp;
+</p>
+<h2>Adrian's Idea</h2>
+<p>
+Adrian was one of the first students to wonder about water leaking. In response to Adrian's idea, Bonnie left the ice on top of the aquarium for 48 hours.  In the video below Bonnie invites Adrian to observe the result.
+</p>
+<p align="center">
+<video id="bonnie_c1" class="video-js vjs-default-skin"
+  controls preload="auto" width="600" height="399"
+  poster="movies/node06/Bonnie_AquariumDemos_clip1.png"
+  data-setup='{"example_option":true}'>
+ <source src="movies/node06/Bonnie_AquariumDemos_clip1.mp4" type='video/mp4' />
+</video>
+  <br /><span style="font-size:90%">Video 1</span>
+</p>
+<p>
+<span class="liteBlue">Examining the video</span>.
+In the video, Adrian maintains his position that there are tiny microscopic holes in the plastic that allow water to pass through. What evidence or reasoning supports Adrian's ideas? How does Bonnie support a scientific environment in the classroom?
+<br />&nbsp;
+</p>
+<h2>Bonnie's Next Move</h2>
+<p>
+To address Adrian's continued concern, Bonnie wrapped an ice pack with paper towels, sealed it in a plastic bag, then placed the bag on the top of the covered aquarium.  In the video below, the class is coming to a consensus about what they are doing and why. 
+  
+<p align="center">
+<video id="bonnie_c2" class="video-js vjs-default-skin"
+  controls preload="auto" width="600" height="396"
+  poster="movies/node06/Bonnie_AquariumDemos_clip2.png"
+  data-setup='{"example_option":true}'>
+ <source src="movies/node06/Bonnie_AquariumDemos_clip2.mp4" type='video/mp4' />
+</video>
+  <br /><span style="font-size:90%">Video 2</span>
+</p>
+<p>
+<span class="liteBlue">Examining the video</span>.
+Andrew poses a question in lines 50 and 51 of the transcript, asking about the purpose of sealing the ice pack. What does Beau's response in lines 61 to 63 imply about his understanding of evaporation? What questions could you ask Beau to better understand his ideas?
+</p>
+<p>
+In lines 68 and 69, how does Ella go beyond answering Bonnie's question? Could her answer be influenced by the class's exploration of different liquids' evaporation?
+</p>
+<p>
+Suppose Adrian's idea that tiny holes in the plastic allow water to pass through is not influenced by this experiment. What would be some responsive moves a teacher could make that would be in line with scientific practice?
+<br />&nbsp;
+</p>
+<h2>A Lingering Idea</h2>
+
+<p>
+Bonnie opened the next science session by asking students to summarize the previous science class.  As you will see in the video below, students are still uncertain about whether water leaks through the plastic.  However, it seems reasonable to them that leaks might not be the only source of the water droplets on the plastic bag of ice or inside the plastic covering over the aquarium.
+</p>
+<p align="center">
+<video id="bonnie_c3" class="video-js vjs-default-skin"
+  controls preload="auto" width="600" height="384"
+  poster="movies/node06/Bonnie_AquariumDemos_clip6.png"
+  data-setup='{"example_option":true}'>
+ <source src="movies/node06/Bonnie_AquariumDemos_clip6.mp4" type='video/mp4' />
+</video>
+  <br /><span style="font-size:90%">Video 3</span>
+</p>
+<p>
+The question of whether the plastic leaks, even microscopically, lingered throughout the remainder of the water cycle exploration.  However, the recognition that at least some of the water must come from somewhere else provided an important opening that encouraged students to consider other mechanisms for the water that appears on the outside of the plastic bag or similar cold objects.  As you will see in the <a href="node07.html">next node</a>, this led to students coming up with an important idea. </p>
+<p>
+<span class="liteBlue">Examining the video</span>.
+What is Bonnie's demeanor as Adrian recants his earlier idea, and as Sean expresses some indecision?  How is eliminating leaks, or at least recognizing the possibility of other causes for the moisture on the outside of the bag, a major step towards an understanding of condensation?  However, Bonnie remained fairly stable in her demeanor.  What could be some reasons for her lack of change?
+</p>
+<span class="liteBlue">Reflection</span>.
+As a teacher, how do you feel about allowing students to move forward with misunderstandings on some issues?  What criteria could be used to help you decide whether or not to do so?
+</p>
+
+<p>&nbsp;
+
+</p>
+
+
+
+
+<div id="descriptions2">			   
+<layer id="layer2" ></layer>
+<div id="div2" style="position:relative;left:000;top:000"></div> 
+</div> 
+
+
+
+ 
+ 
+  <!--
+  <img src="trajectories/timeline01.png" width="640" height="84" border="0" usemap="#Map1" />
+   -->
+<map name="Map1" id="Map1">
+<area shape="circle" coords="36,34,32" href="node01.html" onMouseOver="changetext(item[1]);" onMouseOut="changetext(item[current]);" />
+<area shape="circle" coords="117,34,32" href="node02.html" onMouseOver="changetext(item[2]);" onMouseOut="changetext(item[current]);" />
+<area shape="circle" coords="198,34,32" href="node03.html" onMouseOver="changetext(item[3]);" onMouseOut="changetext(item[current]);" />
+<area shape="circle" coords="279,34,32" href="node04.html" onMouseOver="changetext(item[4]);" onMouseOut="changetext(item[current]);" />
+<area shape="circle" coords="360,33,32" href="node05.html" onMouseOver="changetext(item[5]);" onMouseOut="changetext(item[current]);" />
+<area shape="circle" coords="441,34,32" href="node06.html" onMouseOver="changetext(item[6]);" onMouseOut="changetext(item[current]);" />
+<area shape="circle" coords="522,34,32" href="node07.html" onMouseOver="changetext(item[7]);" onMouseOut="changetext(item[current]);" />
+<area shape="circle" coords="604,34,32" href="node08.html" onMouseOver="changetext(item[8]);" onMouseOut="changetext(item[current]);" />
+</map>
+<map name="Map2" id="Map2">
+<area shape="circle" coords="36,34,32" href="node01.html" onMouseOver="changetext2(item2[1]);" onMouseOut="changetext2(item2[current]);" />
+<area shape="circle" coords="117,34,32" href="node02.html" onMouseOver="changetext2(item2[2]);" onMouseOut="changetext2(item2[current]);" />
+<area shape="circle" coords="198,34,32" href="node03.html" onMouseOver="changetext2(item2[3]);" onMouseOut="changetext2(item2[current]);" />
+<area shape="circle" coords="279,34,32" href="node04.html" onMouseOver="changetext2(item2[4]);" onMouseOut="changetext2(item2[current]);" />
+<area shape="circle" coords="360,33,32" href="node05.html" onMouseOver="changetext2(item2[5]);" onMouseOut="changetext2(item2[current]);" />
+<area shape="circle" coords="441,34,32" href="node06.html" onMouseOver="changetext2(item2[6]);" onMouseOut="changetext2(item2[current]);" />
+<area shape="circle" coords="522,34,32" href="node07.html" onMouseOver="changetext2(item2[7]);" onMouseOut="changetext2(item2[current]);" />
+<area shape="circle" coords="604,34,32" href="node08.html" onMouseOver="changetext2(item2[8]);" onMouseOut="changetext2(item2[current]);" />
+</map>
+
+
+
+
+
+
+<script language="javascript">footerStuff();</script>
+</body>
+</html>

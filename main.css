@@ -1,0 +1,1221 @@
+/* CSS Document */
+
+body {
+	font:	12px Verdana, Arial, Helvetica, sans-serif;
+	background:#ECEFE1;
+	padding:0px;
+	margin:0px;
+	color: #666;
+	line-height: 1.25em;
+	}
+	
+	/*/*/a{}
+body p {
+/*  font-size: x-small;  */
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  font-size: small;
+}
+html>body p,div {
+	font-size: small;
+	color: #777777;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* */
+	
+ol {
+	margin-right:40px;
+}
+	
+
+h1 {
+	font-size:160%;
+	line-height:normal;
+	font-weight: bold;
+	/*	color: #669933;		*/
+	color: #587B8C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	font-size: medium;
+	font-weight: bold;
+	/*	color: #669933;		*/
+	color: #777777;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	font-size: small;
+	font-weight: bold;
+	/*	color: #669933;		*/
+	color: #999999;
+}
+
+h4 {
+	font-size: small;
+/*	font-weight: bold;			*/
+	/*	color: #669933;		*/
+	color: #999999;
+}
+
+a:link, a:visited, a:hover, a:active {
+	font-size: small;
+	text-decoration:none;
+}
+
+a:link {
+	color: #0033CC;
+}
+
+a:visited {
+	color: #0033CC;
+/*	color: #6666CC;  */
+}
+a:hover {
+	color: #669933;
+}
+
+b {
+	font-size:90%;
+}
+
+
+caption {
+	color:#66FF00;
+	font-size: 90%;
+	line-height: 1.25em;
+}
+
+#blockquoteIndent {
+	margin-left: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#blockquoteIndentSmaller {
+	margin-left: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 50%;
+}
+
+
+#frame {
+/*	width:760px;		*/
+	width:860px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	padding:0px;
+	text-align:left;
+	border: thin solid #666666;
+	background-color: #FFFFFF;
+	}
+				
+#banner{
+	background-color: #FFFFFF;
+}
+
+#bannerLeft {
+/*	width:225px;		*/
+	width:225px;
+	height:93px;
+	padding:0px;
+	float:left;
+	margin-right: 535px;
+	left: 0;
+	top: 10px;
+}
+#bannerRight {
+/*	width:535px;    */
+	width:635px;    
+	height:93px;
+	padding:0px;
+	float:right;
+	padding: 0px;
+	top: 0px;
+	vertical-align: bottom;
+}
+
+#bannerRightTop {
+/*	width:535px;    */
+	width:635px;    
+	height:72px;
+	top: 0px;
+}
+#bannerRightTitleTab {
+/*	width:525px;    */
+	width:648px;
+	height:21px;
+	font-size: 110%;
+	color: #FFFFFF;
+	background-color: #587B8C;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	overflow: hidden;
+	font-weight: bold;
+}
+		
+#contentleftBG {
+	background:#587B8C;
+}
+
+#contentleft {
+	width:175px;
+	height:100%;
+	padding:0px;
+	float:left;
+	background:#999288;
+	overflow: visible;
+	font-size: small;
+	color: #FFFFFF;
+		}
+	
+#contentleft2 {
+	width:175px;
+	height:100%;
+	padding:0px;
+	float:none;
+/*	background:#9999ff; */
+	background:#587B8C;
+	overflow: visible;
+	font-size: small;
+	color: #FFFFFF;
+	border:48px;
+	border-color:#000;
+/*	border-right-color:#000000;
+	border-left-color:#000000;
+	border-bottom-color:#000000;
+	border-top-color:#000000;  */
+		}
+
+#contentcenter {
+/*	width:550px;   */
+	width:635px;
+	height:auto;
+	padding:0px 20px 0px 30px;
+	float:left;
+	overflow: visible;
+	background-color: #FFFFFF;
+	/*background-image: url("images/cornerBlue.gif");*/
+	background-repeat: no-repeat;
+		}
+	
+#contentheader {
+	background:#fff;
+		}
+		
+	
+	
+/*********** #contentleft link styles ***********/
+
+#contentleft ul a:link, #contentleft ul a:visited {
+	display: block;
+}
+#contentleft ul {list-style: none; margin: 0; padding: 0;}
+
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#contentleft li {border-bottom: 1px dashed #EEE;}
+
+/* fix for browsers that don't need the hack */
+html>body #contentleft li {border-bottom: none;}
+
+
+/*********** #contentleft2 link styles ***********/
+
+#contentleft2 ul a:link, #contentleft2 ul a:visited {
+	display:block;
+}
+
+#contentleft2 span {
+	display:block;
+}
+
+#contentleft2 ul {list-style: none; margin: 0; padding: 0;}
+
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#contentleft2 li {border-bottom: 1px dashed #EEE;}
+
+/* fix for browsers that don't need the hack */
+html>body #contentleft2 li {border-bottom: none;}
+
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	color: #FFFFFF; 
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+
+#sectionLinks ul{
+	list-style: none;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+
+
+#sectionLinks a:link{
+	padding: 4px 0px 4px 10px;
+	width: 165px;	
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+/*	width: auto;   */
+	text-decoration: none;
+}
+
+#sectionLinks a:link {
+	color: #FFFFFF;	
+}
+
+/* #sectionLinks span{
+	color: #bbbbbb;
+}
+*/
+#noActiveLink {
+	padding: 4px 0px 4px 10px;
+	width: 165px;	
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+/*	width: auto;   */
+	text-decoration: none;
+	color: #bbbbbb;
+	display: block;
+}
+
+#sizeToFit {
+	font-size:90%;
+}
+
+#sectionLinks a:visited{
+	border-top: 1px solid #cccccc;
+	padding: 4px 0px 4px 10px;
+	width: 165px;	
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+/*	width: auto;   */
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#sectionLinks a:hover{
+	background-color: #94AEC7;
+	padding: 4px 0px 4px 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	font-weight: normal;
+}
+
+#sectionLinks a:active{
+	background-color: #669933;
+	font-weight: normal;
+}
+
+
+/*********** #sectionLinks1 styles ***********/
+
+.leftMenuIndent  {
+	background-color:#cdcdcd;
+}
+
+
+.leftMenuIndent2  {
+	color: #285185;
+}
+
+
+#sectionLinks1{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	color: #333333; 
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+
+#sectionLinks1 ul{
+	list-style: none;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #333333;
+}
+
+
+#sectionLinks1 a:link{
+	padding: 4px 0px 4px 10px;
+	width: 165px;	
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+/*	width: auto;   */
+	text-decoration: none;
+}
+
+#sectionLinks1 a:link {
+	color: #333333;	
+}
+
+/* #sectionLinks1 span{
+	color: #bbbbbb;
+}
+*/
+
+
+#sectionLinks1 a:visited{
+	border-top: 1px solid #cccccc;
+	padding: 4px 0px 4px 10px;
+	width: 165px;	
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+/*	width: auto;   */
+	text-decoration: none;
+	color: #333333;
+}
+
+#sectionLinks1 a:hover{
+	background-color: #94AEC7;
+	padding: 4px 0px 4px 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	font-weight: normal;
+}
+
+#sectionLinks1 a:active{
+	background-color: #669933;
+	font-weight: normal;
+}
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks2{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	color: #FFFFFF;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+
+#sectionLinks2 ul{
+	list-style: none;
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+
+
+#sectionLinks2 a:link{
+	padding: 4px 10px 4px 10px;
+	width: 165px;	
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+/*	width: auto;   */
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#sectionLinks2 a:visited{
+	border-top: 0px solid #cccccc;
+	padding: 4px 10px 4px 10px;
+	width: 165px;	
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+/*	width: auto;   */
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#sectionLinks2 a:hover{
+	background-color:#FF6699;
+	padding: 4px 10px 4px 10px;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	font-weight: normal;
+}
+
+#sectionLinks2 a:active{
+	background-color: #669933;
+	font-weight: normal;
+}
+/***********  alerts text & links styles ***********/
+
+#alerts {
+	margin: 0px;
+	padding: 4px 0px 4px 0px;
+	background-color: #587B8C;
+}
+
+#alerts p{
+	margin: 0px;
+	padding: 4px 4px 4px 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#alerts a:link {
+/*	color: #000000;    */
+	color: #FFFFFF;
+}
+
+#alerts a:visited {
+/*	color: #6699FF;	*/
+	color: #FFFFFF;
+}
+#alerts a:hover {
+	color: #FFFFFF;
+	background-color: #999288;
+}
+#alerts a:active {
+/*	color: #587B8C;	    */
+	color: #FFFFFF;
+}
+
+	
+/***********  END of #sectionLinks styles ***********/	
+	
+#breadCrumb {
+	font-size: x-small;
+	color: #666666;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+	background-repeat: no-repeat;
+	padding-bottom: 2px;
+	background-position: top;
+	padding-top: 2px;
+}
+
+#breadCrumb a:link, #breadCrumb a:visited, #breadCrumb a:hover, #breadCrumb a:active {
+font-size: x-small;
+}
+
+#breadCrumb2 {
+	font-size: x-small;
+	color: #666666;
+	background-repeat: no-repeat;
+	padding-bottom: 2px;
+	background-position: top;
+	padding-top: 2px;
+}
+
+#breadCrumb2 a:link, #breadCrumb a:visited, #breadCrumb a:hover, #breadCrumb a:active {
+font-size: x-small;
+}
+
+
+
+#subLinks {
+	font-size: x-small;
+	color: #666666;
+	padding-top: 2px;
+	padding-bottom: 2px;
+/*	word-spacing: 1px; */
+}
+
+#subLinks a:link, #subLinks a:visited, #subLinks a:hover, #subLinks a:active {
+font-size: x-small;
+}
+
+
+#colorBar {
+	background-color: #587B8C;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	text-align: center;
+	color: #FFF;
+	font-size: x-small;
+}
+#titleTab {
+	top: 50px;
+	right: 250px;
+	font-size: medium;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #FFF;
+	background-image: url("images/corner2.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 500px;
+	padding-left: 30px;
+	overflow: hidden;
+	z-index: 2;
+}
+#topBanner {
+	left:220px;
+	top:0px;
+	z-index:auto;
+	background-color: #FFCC00;
+	float: right;
+}
+
+.contentBoxTitle {
+	font-size: medium;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #587B8C;
+	padding: 6px 0px 6px 16px;
+}
+
+.contentBox {
+	font-size: small;
+	color: #333333;
+	background-color: #E8EBDC;
+/*	width: 200px; */
+	border: thin solid #587B8C;
+	padding: 6px 0px 6px 0px;
+	margin: 0px;
+}
+
+
+.contentBox p {
+	font-size: small;
+	color: #333333;
+	margin: 4px 4px 6px 16px;
+	padding: 0px;
+}
+
+
+.contentBox a:link, .contentBox a:visited, .contentBox a:hover, .contentBox a:active {
+	font-size: small;
+}
+
+.scheduleTableBox {
+/*	background-color: #999288;	*/
+	background-color: #CCCCCC;
+}
+
+
+tr.schedTopBottom {
+	background-color: #587B8C;
+}
+
+tr.sched0 {
+	background-color: #FBFCFA;
+}
+
+tr.sched1 {
+	background-color: #ECEFE1;
+}
+
+.scheduleBoxTitle {
+	font-size: small;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 2px 0px 2px 15px;
+}
+
+.scheduleBoxTBR {
+	font-size: small;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 2px 6px 2px 6px;
+	text-align: center;
+}
+
+
+.scheduleBox {
+	font-size: x-small;
+	color: #333333;
+	padding: 6px 0px 6px 0px;
+	margin: 0px;
+}
+
+
+.scheduleBox p {
+	font-size: x-small;
+	color: #333333;
+	margin: 0px 4px 0px 15px;
+	padding: 0px;
+}
+
+
+.scheduleBox a:link, .scheduleBox a:visited, .scheduleBox a:hover, .scheduleBox a:active {
+	font-size: x-small;
+}
+
+.scheduleBoxR {
+	font-size: x-small;
+	color: #333333;
+	padding: 6px 0px 6px 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.scheduleBoxR p {
+	font-size: x-small;
+	color: #333333;
+	margin: 0px 4px 0px 4px;
+	padding: 0px;
+}
+
+/*  Target Ideas Tables formats and styles */
+
+.targetTableBox {
+/*	background-color: #999288;	*/
+	background-color: #CCCCCC;
+}
+
+
+tr.targetTopBottom {
+	font-size: small;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 4px;
+	text-align: center;
+	background-color: #587B8C;
+}
+
+tr.targetCatRow {
+	vertical-align: bottom;
+	background-color: #999288;
+}
+tr.target0 {
+	vertical-align: top;
+	background-color: #F8F8F8;
+}
+
+tr.target1 {
+	vertical-align: top;
+	background-color: #EFF1E6;
+}
+
+.targetBoxTitle {
+}
+
+.targetBoxCategory {
+	font-size: small;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+}
+
+
+.targetBox {
+	font-size: x-small;
+	color: #333333;
+	padding: 2px 4px 2px 4px;
+	margin: 0px;
+}
+
+
+.targetBox p {
+	font-size: x-small;
+	color: #333333;
+	margin: 0px 4px 0px 6px;
+	padding: 0px;
+}
+
+
+.targetBox a:link, .targetBox a:visited, .targetBox a:hover, .targetBox a:active {
+	font-size: x-small;
+}
+
+.targetBoxL {
+	font-size: x-small;
+	color: #333333;
+	padding: 2px 4px 2px 4px;
+	margin: 0px;
+	text-align: center;
+}
+
+.targetBoxL p {
+	font-size: small;
+	color: #333333;
+	margin: 0px 4px 0px 4px;
+	padding: 0px;
+}
+
+.targetBoxR {
+	font-size: x-small;
+	color: #333333;
+	padding: 2px 4px 2px 4px;
+	margin: 0px;
+	text-align: left;
+}
+
+.targetBoxR p {
+	font-size: small;
+	color: #333333;
+	margin: 0px 4px 0px 4px;
+	padding: 0px;
+}
+
+.targetX {
+	background-color: #CCCCCC;
+	font-size: 50%;
+}
+
+.targetCell {
+	width: 8px;
+	font-size: small;
+	color: #333333;
+	padding: 2px 4px 2px 4px;
+	margin: 0px;
+	text-align: center;
+}
+
+.targetCellTop {
+	font-size: x-small;
+	color: #333333;
+	padding: 2px 4px 2px 4px;
+	margin: 0px;
+	text-align: center;
+}
+.targetCellTop a:link, .targetCellTop a:visited, .targetCellTop a:hover, .targetCellTop a:active {
+	font-size: x-small;
+}
+.targetCellTop a:link, .targetCellTop a:visited {
+	color: #FFFFFF;
+}
+
+.targetCellTop a:hover {
+	background-color: #94AEC7;
+}
+
+.targetCellTop a:active {
+	background-color: #669933;
+}
+
+/*  End Target Ideas Styles */
+
+.alertBoxTitle {
+	font-size: small;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #CF6633;
+	padding: 2px 0px 2px 15px;
+}
+
+.alertBoxTitle a  {
+	color: #FFFFFF;
+}
+
+.alertBox {
+	font-size: x-small;
+	color: #333333;
+	background-color: #ECEFE1;
+	padding: 6px 0px 6px 0px;
+	margin: 0px;
+	width: 240px;
+	border: thin solid #CF6633;
+/*	height: 155px;		*/
+	overflow: scroll;
+}
+
+.alertBox p {
+	font-size: x-small;
+	color: #333333;
+	background-color: #ECEFE1;
+	padding: 0px 4px 0px 15px;
+	margin: 4px;
+
+}
+
+.alertBox a:link, .alertBox a:visited, .alertBox a:hover, .alertBox a:active {
+	font-size: x-small;
+}
+
+
+#aboveMenuBar {
+	background-color: #587B8C;
+	height: 10px;
+	padding: 5px;
+}
+
+.style1 {
+	font-size: x-small;
+	color: #999;
+}
+.style2 {
+	font-size: small;
+	color: #475169;
+}
+
+.style3 {color: #999999}
+
+.tableIndent {
+	position:relative;
+	left: 30px;
+}
+
+.darkBlue {
+color: #000099;
+font-size: 100%;
+font-weight: bold;
+}
+
+.liteBlue {
+color:#4f81bd;
+font-size: 100%;
+font-weight:normal;
+}
+
+.liteBlueOnly {
+color:#4f81bd;
+font-size: 100%;
+}
+
+
+.indigo {
+color: #333399;
+font-size: 100%;
+font-weight: bold;
+}
+
+.blueGray {
+color: #666699;
+font-size: 100%;
+font-weight: bold;
+}
+
+.violet {
+color: #990099;
+font-size: 100%;
+font-weight: bold;
+}
+
+.gray {
+	padding-top:4px;
+	color: rgb(163,168,180);
+	color:#878B95;
+	/*	color: #475169;		*/
+/*	color:#999288;		*/
+/*	color:#587B8C;
+	/*	color:#6895A9;	*/
+	font-size: 80%;/*	font-weight: normal;	*/
+/*	font-style: italic; */
+}
+
+.grey {
+/*	color: #475169;		*/
+	color: rgb(163,168,180);
+/*	font-weight: normal;	*/
+}
+.grey2 {
+/*	color: #475169;		*/
+	color: #666;
+/*	font-weight: normal;	*/
+}
+.red {
+	color: #F00;
+}
+.superTitle {
+/*	color: #475169;		*/
+	color: rgb(163,168,180);
+	font-size: 80%;
+}
+
+.small {
+	font-size: 85%;
+}
+
+.smaller {
+	font-size: 80%;
+}
+
+.menuSmall {
+	font-size: 80%;
+}
+
+.slightlySmaller {
+	font-size: 85%;
+}
+
+
+.smallest {
+	font-size: x-small;
+}
+
+.larger {
+	font-size: 120%;
+}
+
+.references {
+	font-size: x-small;
+	text-indent:hanging;
+	line-height:1.25em;
+}
+.references a{
+	font-size: x-small;
+	line-height:1.25em;
+}
+
+.listStyle {
+/*  for list of names with each line a separate paragraph */
+	text-indent:30pt;
+	line-height:60%;
+	
+}
+
+
+.subtitle {
+	font-weight: bold;
+	padding: 0px 0px 4px 0px;
+}
+
+.subtitleIdea {
+	font-weight: bold;
+	padding: 0px 0px 4px 0px;
+}
+
+.supertitle {
+	font-size: 110%;
+	font-weight: bold;
+	padding: 0px 0px 4px 0px;
+}
+
+
+/* Style for box with stand-alone movie link */
+
+.movieBox {
+	border: solid #CCCCCC;
+/*	background-color: #B1C3FD; */
+	background-color: #EEE;
+
+	font-size: small;
+	font-weight: normal;
+	color: #222;
+	padding: 4px 8px 8px 8px;
+	text-align: left;
+}
+
+.movieBox a:link, .movieBox a:hover, .movieBox a:visited, .movieBox a:active {
+	color: #FFFFFF;
+}
+
+.movieBox a:hover {
+	background-color: #94AEC7;
+}
+
+
+.movieBox a:active {
+	background-color: #669933;
+}
+
+.noticeBox {
+	border: solid #CCCCCC;
+	background-color: #94AEC7;
+	font-size: small;
+	font-weight: normal;
+	color: #000;
+	padding: 4px 8px 8px 8px;
+	text-align: left;
+}
+
+
+
+/*  Styles for Rationale in Schedule headers */
+
+.rationaleSched {
+	font-size: x-small;
+	color: #FFFFFF;
+	margin: 0px;
+	font-weight: normal;
+	text-align: center;
+}
+.rationaleSched a:link, .rationaleSched a:visited, .rationaleSched a:hover, .rationaleSched a:active {
+	font-size: x-small;
+	font-weight: normal;
+}
+.rationaleSched a:link, .rationaleSched a:visited {
+	color: #FFFFFF;
+}
+
+.rationaleSched a:hover {
+	background-color: #94AEC7;
+}
+
+.rationaleSched a:active {
+	background-color: #669933;
+}
+
+
+/*  Tooltip Styles Below */
+
+.tooltiptitle{COLOR: #FFFFFF; TEXT-DECORATION: none; CURSOR: Default; font-family: arial; font-weight: bold; font-size: 8pt}
+
+.tooltipcontent{COLOR: #000000; TEXT-DECORATION: none; CURSOR: Default; font-family: arial; font-size: 8pt}
+
+#ToolTip{position:absolute; width: 100px; top: 0px; left: 0px; z-index:4; visibility:hidden;}
+
+/*  End Tooltip Styles  */
+
+#topMenuLinks{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	color: #FFFFFF;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: #587B8C;
+/*	border-width: thin;
+	border-style: solid;
+	border-color: #587B8C;  */
+}
+
+
+#topMenuLinks a{
+	display: block;
+/*	width: 165px;  */
+	background-color: inherit;
+	border: none;
+}
+
+
+#topMenuLinks a:link{
+	padding: 4px 5px 4px 5px;
+/*	width: 165px;  */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+/*	width: auto;   */
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#topMenuLinks a:visited{
+	border-top: 1px solid #cccccc;
+	padding: 4px 5px 4px 5px;
+/*	width: 165px;  */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+/*	width: auto;   */
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#topMenuLinks a:hover{
+	background-color: #94AEC7;
+	padding: 4px 5px 4px 5px;
+	font-weight: normal;
+}
+
+#topMenuLinks a:active{
+	background-color: #669933;
+	font-weight: normal;
+}
+
+#topMenuLinks span{
+	padding: 4px 5px 4px 5px;
+	display: block;
+	color:  rgb(163,168,180);
+	color: #bbbbbb;
+/*	width: 165px;  */
+	background-color: inherit;
+	border: none;
+}
+
+#noActiveLinks {
+	padding: 4px 5px 4px 5px;
+	display: block;
+	color:  rgb(163,168,180);
+	color: #bbbbbb;
+/*	width: 165px;  */
+	background-color: inherit;
+	border: none;
+}
+
+
+
+.greenBckgrnd {
+	color: #587B8C;
+}
+
+#greenBckgrnd2 {
+	color: #587B8C;
+}
+
+.trajectoryImage {
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+	border-width:1px;
+}
+#transcriptH2 {
+	color: #587B8C;
+}
+.darkGray {
+	color: #444444;
+}
+.serifFont {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #555555;
+	text-align: center;
+}
+.serifFont2 {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #555555;
+}
+.blue {
+	color: #00C;
+}
+
+.style4 {
+	color: #444;
+}
+
+.greenFont {
+	color: #587B8C;
+}.testColor {
+	color: #4170AA;
+}
+.off-white {
+	color: #EFF;
+}
+.mid-header {
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom: -6pt;
+}
+
+.quotation {
+	text-align: justify;
+	width: 65%;
+}
+
+.quotation2 {
+	text-align: justify;
+	width: 75%;
+}
+.purple {
+	color: #90C;
+}
+
+.darkRed {
+	color:#943634;
+}
